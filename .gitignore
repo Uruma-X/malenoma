@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.DS_Store
+uploads/*.csv
+uploads/*.xls
+uploads/*.xlsx
+uploads/*.h5

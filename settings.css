@@ -1,0 +1,31 @@
+<style>
+  @keyframes flycar {
+    0% { transform: translateX(-150px) translateY(0); opacity: 0; }
+    50% { transform: translateX(50vw) translateY(-10px); opacity: 1; }
+    100% { transform: translateX(120vw) translateY(0); opacity: 0; }
+  }
+
+  @keyframes bike {
+    0% { transform: translateX(-150px) translateY(0); opacity: 0; }
+    50% { transform: translateX(50vw) translateY(-10px); opacity: 1; }
+    100% { transform: translateX(120vw) translateY(0); opacity: 0; }
+  }
+
+  @keyframes ship {
+    0% { transform: translateX(-250px) translateY(0); opacity: 0.2; }
+    50% { transform: translateX(60vw) translateY(-20px); opacity: 1; }
+    100% { transform: translateX(120vw) translateY(0); opacity: 0; }
+  }
+
+  .animate-flycar {
+    animation: flycar 12s  ease-in-out infinite;
+  }
+
+  .animate-bike {
+    animation: bike 8s ease-in-out infinite;
+  }
+
+  .animate-ship {
+    animation: ship 15s ease-in-out infinite;
+  }
+</style>
